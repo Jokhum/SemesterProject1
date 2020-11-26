@@ -1,0 +1,349 @@
+/*Universal*/
+
+main {
+	width: 90vw;
+	margin: 0 auto;
+	padding: 30px 20px;
+	min-height: calc(100vh - 70px - 90px);
+}
+
+body {
+	margin: 0;
+	padding: 0;
+	background-color: #104257;
+	font-family: filson-soft, sans-serif;
+	font-style: normal;
+	font-weight: 100;
+	height: 100vh;
+}
+
+/*Text*/
+
+p {
+	color: #f0efd8;
+	font-size: 0.85rem;
+	font-weight: 200;
+	text-align: center;
+}
+
+h1 {
+	text-align: center;
+	color: #f095a5;
+	font-size: 1.5rem;
+	font-weight: 300;
+	margin-left: 2%;
+	margin-right: 2%;
+	margin-top: 3%;
+}
+
+h2 {
+	text-align: center;
+	color: #f0efd8;
+	font-size: 1rem;
+	font-weight: 200;
+	margin-left: 2%;
+	margin-right: 2%;
+	margin-top: 3%;
+}
+
+h3 {
+	text-align: center;
+	color: #f0efd8;
+	font-size: 1rem;
+	font-weight: 200;
+	margin-left: 2%;
+	margin-right: 2%;
+	margin-top: 3%;
+}
+
+h4 {
+	text-align: center;
+	color: #f0efd8;
+	font-size: 1rem;
+	font-weight: 200;
+	margin-left: 2%;
+	margin-right: 2%;
+	margin-top: 3%;
+}
+
+/*Logo*/
+
+.logo {
+	max-height: 10vh;
+}
+
+/*Header*/
+
+header {
+	max-height: 10vh;
+}
+
+/*Navigation Bar */
+
+.wrap {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+}
+
+nav li {
+	display: inline-block;
+	margin-left: 70px;
+}
+
+nav a {
+	text-decoration: none;
+	color: #f0efd8;
+	font-size: 1.2em;
+	font-weight: 300;
+	margin: 0.2em 0.3em;
+	padding: 0.1em 0.2em;
+}
+
+.navigation-bar-top {
+	display: flex;
+	justify-content: center;
+	width: 60%;
+}
+
+.nav .highlight {
+	background-color: #f0efd8;
+	color: #104257;
+	border-radius: 5px;
+}
+
+.top-banner-menu {
+	background: linear-gradient(
+		to bottom,
+		black 5%,
+		rgba(2, 5, 6, 0.96) 5%,
+		rgba(3, 9, 12, 0.91) 7%,
+		rgba(4, 14, 18, 0.87) 10%,
+		rgba(5, 18, 23, 0.83) 13%,
+		rgba(7, 28, 36, 0.74) 20%,
+		rgba(7, 28, 36, 0.742) 25%,
+		rgba(8, 33, 42, 0.70) 30.5%,
+		rgba(9, 37, 48, 0.66) 35%,
+		rgba(10, 41, 54, 0.62) 55%,
+		rgba(11, 46, 60, 0.57) 60.2%,
+		rgba(12, 51, 67, 0.52) 73.1%,
+		rgba(13, 54, 71, 0.49) 80%,
+		rgba(14, 58, 76, 0.45) 90.2%,
+		rgba(16, 66, 87, 0.38) 100%,
+		#104257 38%
+	);
+	display: flex;
+	align-items: center;
+}
+
+/*Home*/
+
+.home {
+	background-image: url(../images/webfolder/BackgroundHome.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+}
+
+.mobile-page-titles {
+	margin-top: 2rem;
+}
+
+#image-container {
+	display: flex;
+	justify-content: center;
+}
+
+.mammoth-home {
+	border: solid #f0efd8 1px;
+	border-radius: 5px 5px 5px 5px;
+	max-height: 300px;
+	margin-top: 3%;
+	margin-bottom: 5%;
+}
+
+/*Home Buttons*/
+
+.button-container-line-home {
+	display: flex;
+	justify-content: center;
+	gap: 5%;
+}
+
+.go-to-buttons {
+	background-color: #a3394d;
+	color: #f0efd8;
+	border-radius: 5px;
+	text-decoration: none;
+	text-align: center;
+	padding: 10px 15px;
+	min-width: 80px;
+	max-height: 20px;
+	margin-bottom: 5%;
+}
+
+/*Exhibitions*/
+
+/*Events*/
+
+/*Contact*/
+
+/*Opening*/
+
+/*Footer*/
+
+footer {
+	text-align: center;
+	background-color: #072836cb;
+	padding: 20px;
+	max-height: 50px;
+}
+
+/*Footer Text*/
+
+#footer-link {
+	text-decoration: none;
+	color: #818181;
+	padding: 10px;
+	font-weight: 300;
+}
+
+#footer-fast-link-container {
+	margin-bottom: 15px;
+}
+
+/*Social Media Footer*/
+
+#social-media-icon img {
+	max-height: 25px;
+	border-radius: 5px;
+}
+
+#social-media-icon {
+	padding: 0 10px;
+}
+
+/*Media Queries for Web*/
+
+@media only screen and (min-width: 1025px) {
+	.burger-box {
+		display: none;
+	}
+
+	.mobile-page-titles {
+		display: none;
+	}
+
+	/*Logo*/
+
+	.logo-box {
+		align-items: center;
+	}
+
+	.logo-box-text {
+		color: #f0efd8;
+		font-size: 1.3rem;
+		font-weight: 500;
+		margin-left: 1%;
+	}
+
+	/*Home*/
+
+	.text-background-box {
+		display: flex;
+		flex-direction: column;
+		background-color: rgb(16, 66, 87, 0.8);
+		border-style: solid;
+		border-width: 1px;
+		border-color: black;
+		border-radius: 5px 5px 5px 5px;
+		margin-top: 5%;
+		margin-left: 30%;
+		margin-right: 30%;
+	}
+}
+
+/*Media Queries for Mobile*/
+
+@media only screen and (max-width: 1024px) {
+	/*hidden items*/
+
+	.home {
+		background-image: none;
+	}
+
+	/*Texts*/
+
+	h2 {
+		font-size: 0.85rem;
+	}
+
+	/*Header*/
+
+	.top-banner-menu {
+		display: flex;
+		align-items: center;
+		width: 100%;
+		height: 15vh;
+	}
+
+	/*Logo*/
+
+	.logo-box {
+		position: absolute;
+		margin-left: 50%;
+		margin-right: 50%;
+		transform: translate(-50%);
+	}
+
+	.logo-box-text {
+		display: none;
+	}
+
+	/*Navigation Bar*/
+
+	.navigation-bar-top {
+		display: none;
+	}
+
+	nav {
+		display: none;
+	}
+
+	/*Burger Menu*/
+
+	.burger-box {
+		margin-left: 5%;
+	}
+
+	.fa-bars {
+		font-size: 2rem;
+		color: #f0efd8;
+	}
+
+	.fa-times {
+		font-size: 2rem;
+		color: #f0efd8;
+	}
+
+	#mobile-navigation-menu-text {
+		display: flex;
+		flex-direction: column;
+		text-align: center;
+	}
+
+	#mobile-navigation-menu-button {
+		font-size: 1.3rem;
+		color: #f0efd8;
+		text-decoration: none;
+		font-weight: 200;
+		padding: 20px;
+	}
+
+	/*Home*/
+
+	.mammoth-home {
+		max-width: 80vw;
+	}
+}
