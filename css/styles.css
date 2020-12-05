@@ -49,7 +49,7 @@ h2 {
 h3 {
 	text-align: center;
 	color: #f095a5;
-	font-size: 0.90rem;
+	font-size: 0.80rem;
 	font-weight: 200;
 	margin-left: 2%;
 	margin-right: 2%;
@@ -223,6 +223,39 @@ nav a {
 	background-attachment: fixed;
 }
 
+#double-image-mobile-container {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	gap: 10px;
+}
+
+.exhibitions-double-img {
+	max-width: 40vw;
+	border: #f0efd8 1px solid;
+	border-radius: 5px;
+}
+
+#left-side-tour-img-text {
+	display: flex;
+	align-items: center;
+	margin-top: 3%;
+}
+
+#left-side-tour-img-text img {
+	max-height: 40vh;
+	border: #f0efd8 1px solid;
+	border-radius: 5px;
+}
+
+#guided-tours-notification {
+	margin-top: 3%;
+}
+
+#left-side-tour-img-text {
+	margin: 0 3%;
+}
+
 /*Events*/
 
 .events-site {
@@ -250,7 +283,6 @@ nav a {
 
 #contact-text-box-container h1 {
 	margin: 2%;
-	font-size: 0.90rem;
 }
 
 .contact-us-accessibility-info-box {
@@ -365,6 +397,10 @@ footer {
 
 	/*Home*/
 
+	.desktop-page-titles {
+		font-size: 1.3rem;
+	}
+
 	.text-background-box {
 		display: flex;
 		flex-direction: column;
@@ -377,12 +413,100 @@ footer {
 		padding: 20px;
 	}
 
-	/*Contact Us*/
+	/*Exhibitions*/
 
-	#contact-text-box-container h1 {
-		margin: 2%;
-		font-size: 1.25rem;
+	.exhibitions-frontpage-flex {
+		display: flex;
+		flex-direction: row;
+		flex-wrap: wrap;
+		justify-content: space-around;
+		margin: 2% 0;
 	}
+
+	.exhibitions-frontpage-flex-column {
+		display: flex;
+		flex-direction: column;
+		justify-content: space-between;
+		width: 45%;
+	}
+
+	.text-background-webview {
+		display: flex;
+		flex-direction: row;
+		background-color: rgb(16, 66, 87, 0.8);
+		border-style: solid;
+		border-width: 1px;
+		border-color: black;
+		border-radius: 5px 5px 5px 5px;
+		padding: 20px;
+	}
+
+	#exhibitions-flex-one-container {
+		display: flex;
+		flex-direction: row;
+	}
+
+	.exhibitions-double-img {
+		max-height: 30vh;
+	}
+
+	#image-container-text {
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		margin: 0 10px;
+	}
+
+	#biology-img-exhibitions {
+		border: 1px solid #f0efd8;
+		border-radius: 5px;
+		max-width: 15vw;
+		max-height: 30vh;
+	}
+
+	.text-background-webview-young {
+		display: flex;
+		flex-direction: row-reverse;
+		align-items: center;
+		background-color: rgb(16, 66, 87, 0.8);
+		border-style: solid;
+		border-width: 1px;
+		border-color: black;
+		border-radius: 5px 5px 5px 5px;
+		padding: 20px;
+	}
+
+	.exhibitions-double-img:nth-child(2) {
+		display: none;
+	}
+
+	.text-background-webview-tours {
+		display: flex;
+		flex-direction: row;
+		align-items: center;
+		background-color: rgb(16, 66, 87, 0.8);
+		border-style: solid;
+		border-width: 1px;
+		border-color: black;
+		border-radius: 5px 5px 5px 5px;
+		height: 100%;
+		width: 40%;
+		padding: 20px;
+	}
+
+	#left-side-tour-img-text img {
+		max-height: 80vh;
+		max-width: 20vw;
+	}
+
+	.text-flex-guided-tours {
+		display: flex;
+		flex-direction: column;
+		justify-content: space-between;
+		align-items: center;
+	}
+
+	/*Contact Us*/
 
 	#contact-text-box-container {
 		margin-top: 2%;
@@ -398,6 +522,32 @@ footer {
 
 	.home-site {
 		background-image: none;
+	}
+
+	.desktop-page-titles {
+		display: none;
+	}
+
+	/*Exhibitions*/
+
+	.exhibitions-site {
+		background-image: none;
+	}
+
+	#desktop-title {
+		display: none;
+	}
+
+	.exhibition-images {
+		border: 1px #f0efd8 solid;
+		border-radius: 5px;
+		max-width: 80vw;
+	}
+
+	#image-container {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
 	}
 
 	/*Events*/
