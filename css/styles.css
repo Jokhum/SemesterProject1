@@ -547,8 +547,8 @@ footer {
 	}
 
 	#img-events {
-		max-width: 10vw;
-		max-height: 45vh;
+		max-width: 300px;
+		max-height: 250px;
 	}
 
 	.events-textbox-container {
