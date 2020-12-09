@@ -611,6 +611,10 @@ footer {
 		align-items: center;
 	}
 
+	#left-side-tour-img-text {
+		display: none;
+	}
+
 	/*Events*/
 
 	.events-site {
