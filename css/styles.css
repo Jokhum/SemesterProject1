@@ -227,7 +227,7 @@ nav a {
 
 #double-image-mobile-container {
 	display: flex;
-	justify-content: space-around;
+	justify-content: space-between;
 	margin: 3% 0;
 }
 
@@ -438,7 +438,6 @@ footer {
 	.exhibitions-frontpage-flex {
 		display: flex;
 		flex-direction: row;
-		flex-wrap: wrap;
 		justify-content: space-around;
 		margin: 2% 0;
 	}
@@ -447,6 +446,7 @@ footer {
 		display: flex;
 		flex-direction: column;
 		justify-content: space-between;
+		max-height: 100%;
 		width: 45%;
 	}
 
@@ -467,7 +467,7 @@ footer {
 	}
 
 	.exhibitions-double-img {
-		max-height: 30vh;
+		max-height: 20vh;
 	}
 
 	#image-container-text {
@@ -487,7 +487,6 @@ footer {
 	.text-background-webview-young {
 		display: flex;
 		flex-direction: row-reverse;
-		align-items: center;
 		background-color: rgb(16, 66, 87, 0.8);
 		border-style: solid;
 		border-width: 1px;
@@ -505,7 +504,6 @@ footer {
 		border-width: 1px;
 		border-color: black;
 		border-radius: 5px 5px 5px 5px;
-		height: 100%;
 		width: 45%;
 		padding: 20px 0 20px 20px;
 	}
