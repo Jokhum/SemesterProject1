@@ -361,7 +361,7 @@ footer {
 	text-align: center;
 	background-image: linear-gradient(to bottom, rgba(16, 66, 87, 0.87), rgba(0, 0, 0, 0.8));
 	padding: 20px;
-	max-height: 200px;
+	max-height: 100px;
 }
 
 /*Footer Text*/
@@ -378,7 +378,7 @@ footer {
 }
 
 #footer-fast-link-container {
-	margin-bottom: 15px;
+	margin-bottom: 10px;
 }
 
 #footer-copyright {
@@ -394,13 +394,10 @@ footer {
 	margin: 10px 0;
 }
 
-#social-media-icon img {
-	max-height: 25px;
-	border-radius: 5px;
-}
-
 #social-media-icon {
 	padding: 0 10px;
+	max-height: 25px;
+	border-radius: 5px;
 }
 
 /*Media Queries for Web*/
